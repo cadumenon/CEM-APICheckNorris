@@ -34,6 +34,12 @@ public class Main {
             throw new RuntimeException(e);
         }
     }
+    /**
+
+     *Método para extrair a piada do JSON retornado pela API.
+     * @param resposta Resposta da API no for,ato String.
+     * @return A piada extraida da resposta da API.
+     */
 
     private static String obterPiadaCuckNorris(String resposta)  {
 
